@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Diary</title>
+  <!--<link href="css/tailwind.css" rel="stylesheet">-->
+  <!--<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.2.0/dist/tailwind.min.css" rel="stylesheet">-->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-500 p-4">
+    <div class="flex justify-between items-center">
+      <a href="index.html" class="text-white text-2xl font-bold">Movie Diary</a>
+      <a href="journal.html" class="text-white">Go to Journal</a>
+    </div>
+  </nav>
+
+  <!-- Search Bar -->
+  <div class="container mx-auto mt-8 text-center">
+    <input type="text" id="search-input" class="p-2 border rounded-lg w-2/3" placeholder="Search for a movie...">
+    <button id="search-button" class="p-2 bg-blue-500 text-white rounded-lg mt-4">Search</button>
+  </div>
+
+  <!-- Movie List -->
+  <div id="movie-list" class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 p-8">
+
+    <!-- Movies will be injected here -->
+    
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
